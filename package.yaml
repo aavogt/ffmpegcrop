@@ -1,0 +1,17 @@
+name: ffmpegcrop
+synopsis: Crop a video using ffmpeg
+
+dependencies:
+  - base
+  - turtle
+  - cmdargs
+  - text
+  - gloss
+  - lens
+  - generic-lens
+
+executable:
+  main:
+    main.hs
+  ghc-options:
+    -threaded
