@@ -1,6 +1,6 @@
 name: ffmpegcrop
 synopsis: Crop a video using ffmpeg
-
+license-file: LICENSE
 dependencies:
   - base
   - turtle
