@@ -1,5 +1,10 @@
 # ffmpegcrop
 
+First install ghc 9.8 and cabal-install. I recommend using [ghcup](https://www.haskell.org/ghcup/install/).
+
+> apt install libsdl2-dev ffmpeg
+> git clone https://github.com/aavogt/ffmpegcrop.git && cd ffmpegcrop && cabal install
+
         The ffmpegcrop program
         
         ffmpegcrop [OPTIONS] INFILE
