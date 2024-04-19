@@ -10,6 +10,9 @@ dependencies:
   - lens
   - generic-lens
 
+tested-with:
+  GHC==9.8.2
+
 executable:
   main:
     main.hs

@@ -10,6 +10,8 @@ synopsis:       Crop a video using ffmpeg
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
+tested-with:
+    GHC==9.8.2
 
 executable ffmpegcrop
   main-is: main.hs
