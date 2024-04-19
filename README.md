@@ -30,3 +30,4 @@ First install ghc 9.8 and cabal-install. I recommend using [ghcup](https://www.h
 # TODO
 
 - [ ] set -s and -d with a montage and scroll wheel
+- [ ] .desktop file for `alias ffmpegcropsel='ffmpegcrop $(zenity --file-selection --file-filter="*.mp4 *.mkv *.webm *.avi *.mov *.flv *.wmv *.mpg *.mpeg *.m4v *.ts *.vob *.ogv *.ogg *.3gp *.3g2 *.asf *.m2ts *.mts *.m2v *.m4v"'`
