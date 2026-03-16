@@ -11,21 +11,17 @@
 module Main where
 import Prelude
 import Turtle
-import System.Environment
 import System.Console.CmdArgs
 import Data.Maybe
 import qualified Data.Text as T
 import Data.Char
 import Text.Read hiding (Char)
 import Graphics.Gloss
-import Control.Applicative
 import Graphics.Gloss.Interface.IO.Interact
-import Debug.Trace
 import Control.Lens hiding ((<.>))
 import Data.Ord hiding (Down)
 import qualified Data.List as List
 import Control.Concurrent
-import Control.Exception
 import System.Exit (exitSuccess)
 import Data.Generics.Product hiding (setField)
 import qualified Data.Generics.Product
