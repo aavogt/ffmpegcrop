@@ -103,7 +103,8 @@ oup FFMpegCrop2{..} = ep $ dropExtension input ++ uniq <.> format
 
 -- | the `crop=width:height:x:y` part of the ffmpeg command
 cropstr :: (Int, Int) -> FFMpegCrop2 -> String
-cropstr (w0, h0) FFMpegCrop2{..} = "crop=" ++ show width ++ ":" ++ show height ++ ":" ++ show x ++ ":" ++ show y
+cropstr (w0, h0) FFMpegCrop2{..} =
+  "crop=" ++ show width ++ ":" ++ show height ++ ":" ++ show x ++ ":" ++ show (h0 - y - height)
 
 dim0 :: FilePath -> IO (Int, Int)
 dim0 fp = do
